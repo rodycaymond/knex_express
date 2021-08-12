@@ -1,0 +1,26 @@
+{
+  "name": "knex_express",
+  "version": "1.0.0",
+  "description": "wire up an express server with knex to connect to a PostgreSQL database",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.21",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodycaymond/knex_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodycaymond/knex_express/issues"
+  },
+  "homepage": "https://github.com/rodycaymond/knex_express#readme"
+}
