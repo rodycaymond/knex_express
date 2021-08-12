@@ -10,7 +10,7 @@ const knex = require('knex')(require('./knexfile.js')[process.env.NODE_ENV]);
 
 
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 app.get('/movies', function(req, res) {
     // database
